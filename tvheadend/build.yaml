@@ -1,0 +1,3 @@
+build_from:
+  aarch64: "thealhu/tvheadend:aarch64-latest"
+  amd64: "thealhu/tvheadend:latest"
