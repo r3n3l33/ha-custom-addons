@@ -1,0 +1,19 @@
+{
+  "name": "Pi-hole DNS (Ingress)",
+  "version": "1.0.0",
+  "slug": "pihole_dns",
+  "description": "Pi-hole DNS Server mit Ingress-Integration und Host-Netzwerk",
+  "arch": ["aarch64", "amd64"],
+  "startup": "services",
+  "boot": "auto",
+  "host_network": true,
+  "ingress": true,
+  "ingress_port": 8081,
+  "ingress_entry": "/admin/",
+  "panel_icon": "mdi:pi-hole",
+  "panel_title": "Pi-hole",
+  "privileged": ["NET_ADMIN"],
+  "map": [
+    "addon_config:rw"
+  ]
+}
