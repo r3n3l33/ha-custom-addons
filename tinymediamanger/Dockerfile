@@ -1,4 +1,4 @@
-ARG BUILD_FROM=tinymediamanager/tinymediamanager:5
+ARG BUILD_FROM=tinymediamanager/tinymediamanager:5-prerelease-arm64
 FROM ${BUILD_FROM}
 
 ENV PUID=0 \
