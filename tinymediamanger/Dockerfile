@@ -1,4 +1,4 @@
-ARG BUILD_FROM
+ARG BUILD_FROM=tinymediamanager/tinymediamanager:5
 FROM ${BUILD_FROM}
 
 ENV PUID=0 \
