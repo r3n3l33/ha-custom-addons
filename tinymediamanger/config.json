@@ -1,6 +1,6 @@
 {
   "name": "tinyMediaManager v5",
-  "version": "5.0.0",
+  "version": "5.4.5.2",
   "slug": "tinymediamanager",
   "description": "Media-Scraper und Verwaltung mit VNC, Web UI und API Control",
   "arch": ["aarch64", "amd64"],
