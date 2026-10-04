@@ -21,10 +21,10 @@
     "8081/tcp": "Web Interface"
   },
   "options": {
-    "env:FTLCONF_webserver_api_password": "admin"
+    "password": "admin"
   },
   "schema": {
-    "env:FTLCONF_webserver_api_password": "password"
+    "password": "password"
   },
   "privileged": [
     "NET_ADMIN"
