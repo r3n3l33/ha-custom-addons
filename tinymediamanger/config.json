@@ -1,6 +1,6 @@
 {
   "name": "tinyMediaManager v5",
-  "version": "5.3.5.1",
+  "version": "5.0.0",
   "slug": "tinymediamanager",
   "description": "Media-Scraper und Verwaltung mit VNC, Web UI und API Control",
   "arch": ["aarch64", "amd64"],
@@ -21,10 +21,10 @@
     "7878/tcp": "API Control Port"
   },
   "options": {
-    "password": "my_secret_password"
+    "env:PASSWORD": "123456"
   },
   "schema": {
-    "password": "password"
+    "env:PASSWORD": "password"
   },
   "map": [
     "addon_config:rw",
