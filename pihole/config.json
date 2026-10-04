@@ -1,6 +1,6 @@
 {
   "name": "Pi-hole DNS",
-  "version": "1.2.2",
+  "version": "1.2.0",
   "slug": "pihole_dns",
   "description": "Pi-hole DNS Server im Host-Netzwerk",
   "arch": [
@@ -21,11 +21,9 @@
     "8081/tcp": "Web Interface"
   },
   "options": {
-    "env:WEBPASSWORD": "admin",
-    "env:FTLCONF_webserver_api_password": "admin"
+    "env:FTLCONF_webserver_api_password": "meinpasswort"
   },
   "schema": {
-    "env:WEBPASSWORD": "password",
     "env:FTLCONF_webserver_api_password": "password"
   },
   "privileged": [
