@@ -10,11 +10,16 @@
   "startup": "services",
   "boot": "auto",
   "host_network": true,
-  "ingress": true,
-  "ingress_port": 8081,
+  "ingress": false,
   "panel_icon": "mdi:pi-hole",
   "panel_title": "Pi-hole",
   "webui": "http://[HOST]:[PORT:8081]/admin/",
+  "ports": {
+    "8081/tcp": 8081
+  },
+  "ports_description": {
+    "8081/tcp": "Web Interface"
+  },
   "privileged": [
     "NET_ADMIN"
   ],
