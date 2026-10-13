@@ -3,10 +3,13 @@ FROM ${BUILD_FROM}
 
 ENV LANG=C.UTF-8
 
-# Startet Tvheadend mit aktivierter HTTP-Root-Anpassung
-CMD [ "tvheadend", "-C", "-u", "root", "-g", "root", "--http_root", "", "--satip_xml", "http://192.168.178.130:9527/desc.xml" ]
+# Kopiere das Startskript in den Container und mache es ausführbar
+COPY run.sh /
+RUN chmod a+x /run.sh
 
-# Setzt den tvheadend-Prozess auf ROOT, um Schreibrechte auf Samba-NAS-Shares zu erzwingen
+# Verwende das Skript als Startpunkt
+CMD [ "/run.sh" ]
+
 ENV PUID=0 \
     PGID=0 \
     USER_ID=0 \
