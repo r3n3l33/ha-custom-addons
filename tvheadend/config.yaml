@@ -28,5 +28,11 @@
     "addon_config:rw",
     "media:rw",
     "share:rw"
-  ]
+  ],
+  "options": {
+    "satip_xml_url": "http://192.168.178.130:9527/desc.xml"
+  },
+  "schema": {
+    "satip_xml_url": "str?"
+  }
 }
