@@ -3,12 +3,8 @@ FROM ${BUILD_FROM}
 
 ENV LANG=C.UTF-8
 
-# Kopiere das Startskript in den Container und mache es ausführbar
-COPY run.sh /
-RUN chmod a+x /run.sh
-
-# Verwende das Skript als Startpunkt
-CMD [ "/run.sh" ]
+# Startet Tvheadend direkt mit der festen SAT>IP XML-Adresse
+CMD [ "tvheadend", "-C", "-u", "root", "-g", "root", "--http_root", "", "--satip_xml", "http://192.168.178.130:9527/desc.xml" ]
 
 ENV PUID=0 \
     PGID=0 \
