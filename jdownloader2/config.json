@@ -10,6 +10,7 @@
   "ingress_port": 5800,
   "panel_title": "JDownloader",
   "panel_icon": "mdi:download",
+  "cpuset": "0,1",
   "ports": {
     "5800/tcp": 5800,
     "5901/tcp": 5901,
