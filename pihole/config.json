@@ -9,7 +9,7 @@
   ],
   "startup": "services",
   "boot": "auto",
-  "host_network": true,
+  "host_network": false,
   "ingress": false,
   "panel_icon": "mdi:pi-hole",
   "panel_title": "Pi-hole",
