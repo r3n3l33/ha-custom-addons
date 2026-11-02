@@ -17,7 +17,7 @@
   "ports": {
     "53/udp": 53,
     "53/tcp": 53,
-    "8081/tcp": 80
+    "8081/tcp": 8081
   },
   "ports_description": {
     "8081/tcp": "Web Interface"
