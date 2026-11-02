@@ -28,6 +28,6 @@
     "NET_ADMIN"
   ],
   "map": [
-    "addon_config:rw"
+    "config:rw"
   ]
 }
