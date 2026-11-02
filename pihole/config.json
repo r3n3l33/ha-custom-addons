@@ -15,9 +15,10 @@
   "panel_title": "Pi-hole",
   "webui": "http://[HOST]:[PORT:8081]/admin/",
   "ports": {
-    "8081/tcp": 8081,
-    "53/tcp": 53,
-    "53/udp": 53,
+   "53/udp": 53,
+   "53/tcp": 53,
+   "8081/tcp": 80
+}
   },
   "ports_description": {
     "8081/tcp": "Web Interface"
