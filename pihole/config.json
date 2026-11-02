@@ -1,6 +1,6 @@
 {
   "name": "Pi-hole DNS",
-  "version": "1.3.3",
+  "version": "1.3.4",
   "slug": "pihole_dns",
   "description": "Pi-hole DNS Server im Host-Netzwerk",
   "arch": [
@@ -28,6 +28,7 @@
     "NET_ADMIN"
   ],
   "map": [
-    "config:rw"
+    "config:rw",
+    "addon_config:rw"
   ]
 }
