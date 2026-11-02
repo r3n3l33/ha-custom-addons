@@ -1,6 +1,6 @@
 {
   "name": "Pi-hole DNS",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "slug": "pihole_dns",
   "description": "Pi-hole DNS Server im Host-Netzwerk",
   "arch": [
